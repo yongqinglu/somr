@@ -1,0 +1,17 @@
+.project
+*.o
+*.so
+CORE
+SOM++
+.cproject
+language.settings.xml
+*.a
+*.d
+tracegen
+tracemerge
+omrsig.map
+omrsig.exp
+hookgen
+*.so.dbg
+omrsig.exportlist
+*.sentinel
