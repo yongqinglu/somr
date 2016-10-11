@@ -15,11 +15,11 @@ To make it work , following instructions could do help.
 	make clean
 	
 	#build the omr and som++ together. 
-	make somr
+	make somrall
 	
 	#Clean the omr and som++
-	make somrclean
+	make somrallclean
 
 	#Run the SOM
-	./SOM++ -cp Smalltalk Examples/Hello/Hello.som
-	./SOM++ -cp Smalltalk Examples/Benchmarks/Sum.som
+	./somr -cp Smalltalk Examples/Hello/Hello.som
+	./somr -cp Smalltalk Examples/Benchmarks/Sum.som

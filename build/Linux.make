@@ -63,7 +63,7 @@ INSTALL		=install
 CSOM_LIBS	=
 CORE_LIBS	=-lm
 
-CSOM_NAME	=SOM++
+CSOM_NAME	=somr
 CORE_NAME	=SOMCore
 PRIMITIVESCORE_NAME  =PrimitiveCore
 SHARED_EXTENSION    =so
@@ -257,9 +257,9 @@ omr:
 	make -C omr32
 omrclean:
 	make clean -C omr32
-somr:
+somrall:
 	make -C omr32
 	make
-somrclean:
+somrallclean:
 	make clean -C omr32
 	make clean
