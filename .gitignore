@@ -7,8 +7,6 @@ SOM++
 language.settings.xml
 *.a
 *.d
-tracegen
-tracemerge
 omrsig.map
 omrsig.exp
 hookgen
