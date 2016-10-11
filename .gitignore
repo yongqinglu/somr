@@ -9,7 +9,6 @@ language.settings.xml
 *.d
 omrsig.map
 omrsig.exp
-hookgen
 *.so.dbg
 omrsig.exportlist
 *.sentinel
