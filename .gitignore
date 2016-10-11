@@ -12,3 +12,4 @@ omrsig.exp
 *.so.dbg
 omrsig.exportlist
 *.sentinel
+zg*
