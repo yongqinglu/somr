@@ -167,6 +167,9 @@ pVMObject VMClass::LookupInvokable(pVMSymbol name) const {
     pVMInvokable invokable = NULL;
     for (int i = 0; i < GetNumberOfInstanceInvokables(); ++i) {
         invokable = (pVMInvokable)(GetInstanceInvokable(i));
+        if( NULL == invokable){
+        	break;
+        }
         if (invokable->GetSignature() == name) 
             return (pVMObject)(invokable);
     }
